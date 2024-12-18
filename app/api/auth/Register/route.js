@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import jwt from 'jsonwebtoken';
-import User from '../../../../../lib/models/User';
+import User from '../../../../lib/models/User';
 
 // POST /api/auth/register
 export async function POST(req) {
