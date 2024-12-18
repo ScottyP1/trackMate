@@ -1,4 +1,4 @@
-import Bubble from '@/components/Bubble';
+import Bubble from './Bubble';
 import Label from './Label';
 
 export default function InfoCard({ title, classes }) {

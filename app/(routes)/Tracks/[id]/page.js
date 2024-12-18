@@ -1,4 +1,4 @@
-import TrackLogo from "@/components/FetchLogo";
+import TrackLogo from "../../../../components/FetchLogo";
 import Link from "next/link";
 
 export default async function TrackDetails({ params }) {
