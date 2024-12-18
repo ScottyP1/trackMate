@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import jwt from 'jsonwebtoken';
 
-import User from '../../../../../lib/models/User';
+import User from '../../../../lib/models/User';
 const bcrypt = require('bcrypt')
 
 // POST /api/auth/login
