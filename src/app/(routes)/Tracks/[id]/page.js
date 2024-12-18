@@ -5,7 +5,7 @@ export default async function TrackDetails({ params }) {
     const { id } = await params;
 
     // Fetch track details
-    const response = await fetch(`http://localhost:3000/api/Tracks/${id}`);
+    const response = await fetch(`https://track-mate-eight.vercel.app/api/Tracks/${id}`);
     if (!response.ok) {
         throw new Error(`Failed to fetch track details for ID: ${id}`);
     }

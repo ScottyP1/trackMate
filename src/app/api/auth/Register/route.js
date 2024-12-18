@@ -12,7 +12,7 @@ export async function POST(req) {
         await user.save();
 
         // Generate JWT token
-        const token = jwt.sign({ userId: user._id }, 'key');
+        const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET);
 
         // Return success response
         return NextResponse.json({ token });

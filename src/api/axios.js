@@ -1,6 +1,6 @@
 import axios from "axios";
 const axiosInstance = axios.create({
-    baseURL: '/api', // Backend URL
+    baseURL: 'https://track-mate-eight.vercel.app/api', // Backend URL
 });
 
 
