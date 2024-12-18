@@ -1,9 +1,9 @@
 
-import NavBar from "@/components/NavBar";
+import NavBar from "../components/NavBar";
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
-import { Provider as AuthProvider } from '@/context/AuthContext';
-import { Provider as TrackProvider } from '@/context/TrackContext';
-import { dbConnect } from "@/lib/db";
+import { Provider as AuthProvider } from '../context/AuthContext';
+import { Provider as TrackProvider } from '../context/TrackContext';
+import { dbConnect } from "../lib/db";
 
 import "./globals.css";
 

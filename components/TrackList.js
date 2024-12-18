@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect, useContext } from 'react';
-import { Context as TrackContext } from '@/context/TrackContext';
+import { Context as TrackContext } from '../context/TrackContext';
 import { TrackCard } from './TrackCard';
 
 export default function TrackList() {

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useContext, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { Context as AuthContext } from "@/context/AuthContext";
+import { Context as AuthContext } from "../../../../context/AuthContext";
 
 export default function Register() {
     const { state, register, clearError } = useContext(AuthContext);

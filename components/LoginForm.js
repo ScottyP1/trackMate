@@ -2,7 +2,7 @@
 
 import { useContext, useState, useEffect } from "react";
 import { useRouter } from 'next/navigation';  // Import from 'next/navigation'
-import { Context as AuthContext } from '@/context/AuthContext';
+import { Context as AuthContext } from '../../context/AuthContext';
 
 export default function LoginForm() {
     const [data, setData] = useState({ email: '', password: '' });

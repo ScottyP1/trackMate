@@ -13,8 +13,9 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import Image from 'next/image';
-import { Context as AuthContext } from "@/context/AuthContext";
-import logo from '../../public/images/logo.png';
+
+import { Context as AuthContext } from "../context/AuthContext";
+import logo from '../public/images/logo.png';
 
 const pages = ['Tracks', 'About', 'How To', 'Donate'];
 

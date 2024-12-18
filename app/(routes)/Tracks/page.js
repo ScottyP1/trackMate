@@ -2,11 +2,11 @@
 
 import { useEffect, useContext } from "react";
 
-import { Context as TrackContext } from '@/context/TrackContext';
+import { Context as TrackContext } from '../../../context/TrackContext';
 
-import SearchBar from "@/components/SearchBar";
-import { TrackCardSkeleton } from "@/components/TrackCardSkeleton";
-import { TrackCard } from "@/components/TrackCard";
+import SearchBar from "../../../components/SearchBar";
+import { TrackCardSkeleton } from "../../../components/TrackCardSkeleton";
+import { TrackCard } from "../../../components/TrackCard";
 
 export default function Tracks() {
     const { state, fetchTracks } = useContext(TrackContext);

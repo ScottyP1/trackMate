@@ -1,6 +1,6 @@
 'use client';
 import createDataContext from './createDataContext';
-import axiosInstance from '@/api/axios';
+import axiosInstance from '../api/axios';
 
 const trackReducer = (state, action) => {
     switch (action.type) {
